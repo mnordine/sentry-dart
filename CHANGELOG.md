@@ -7,6 +7,12 @@
 - Fix Dart web builds breaking due to `dart:io` imports when using `SentryIsolate` or `SentryIsolateExtension` ([#1371](https://github.com/getsentry/sentry-dart/pull/1371))
   - When using `SentryIsolate` or `SentryIsolateExtension`, import `sentry_io.dart`.
 
+### Dependencies
+
+- Bump Android SDK from v6.16.0 to v7.13.0 ([#130](https://github.com/mnordine/sentry-dart/pull/130))
+  - [changelog](https://github.com/getsentry/sentry-java/blob/main/CHANGELOG.md#7130)
+  - [diff](https://github.com/getsentry/sentry-java/compare/6.16.0...7.13.0)
+
 ## 7.4.0
 
 ### Features
